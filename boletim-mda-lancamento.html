@@ -30,6 +30,11 @@
     .fmg-hero-logocell, .fmg-hero-metacell { display: block !important; width: 100% !important; text-align: left !important; }
     .fmg-hero-metacell { margin-top: 12px !important; }
     .fmg-badge { white-space: normal !important; }
+    .fmg-badge-full { display: none !important; }
+    .fmg-badge-short { display: inline !important; }
+    .fmg-stat4-full { display: none !important; }
+    .fmg-stat4-short { display: inline !important; }
+    .fmg-spons-master, .fmg-spons-grid { max-width: 260px !important; margin-left: auto !important; margin-right: auto !important; }
   }
 </style>
 </head>
@@ -46,10 +51,10 @@
 <tr><td class="fmg-pad fmg-hero-pad" style="background:#1C3FFF;padding:30px 26px 24px 26px;">
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
     <tr>
-      <td valign="top" class="fmg-hero-logocell"><img src="https://raw.githubusercontent.com/FMG26-sys/BOLETIM-MILGRAU-DISPARO/main/images/logo-fmg.png" width="160" class="fmg-logo" alt="Floripa Mil Grau" style="display:block;width:160px;max-width:160px;height:auto;"></td>
-      <td valign="top" align="right" class="fmg-hero-metacell" style="font-family:'Poppins',Arial,sans-serif;color:#ffffff;text-align:right;">
+      <td valign="top" width="45%" class="fmg-hero-logocell"><img src="https://raw.githubusercontent.com/FMG26-sys/BOLETIM-MILGRAU-DISPARO/main/images/logo-fmg.png" width="160" class="fmg-logo" alt="Floripa Mil Grau" style="display:block;width:160px;max-width:100%;height:auto;"></td>
+      <td valign="top" width="55%" align="right" class="fmg-hero-metacell" style="font-family:'Poppins',Arial,sans-serif;color:#ffffff;text-align:right;">
         <div style="font-size:11px;font-weight:700;letter-spacing:1.4px;text-transform:uppercase;">Boletim Especial</div>
-        <div class="fmg-badge" style="display:inline-block;margin-top:6px;background:#FFD700;color:#0A1F8F;font-size:10px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;padding:4px 10px;border-radius:20px;">Melhores do Ano VR Multimarcas · 4ª Edição</div>
+        <div class="fmg-badge" style="display:inline-block;margin-top:6px;background:#FFD700;color:#0A1F8F;font-size:10px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;padding:4px 10px;border-radius:20px;"><span class="fmg-badge-full">Melhores do Ano VR Multimarcas · 4ª Edição</span><span class="fmg-badge-short" style="display:none;">MDA VR Multimarcas · 4ª Edição</span></div>
       </td>
     </tr>
   </table>
@@ -120,7 +125,7 @@
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#123399;border-radius:14px;" bgcolor="#123399">
           <tr><td align="center" style="padding:18px 14px;">
             <div style="font-family:'Poppins',Arial,sans-serif;font-size:24px;font-weight:800;color:#FFD700;line-height:1.15;">+35 milhões</div>
-            <div style="font-family:'Poppins',Arial,sans-serif;font-size:11px;font-weight:600;color:#ffffff;margin-top:6px;">visualizações em torno do evento</div>
+            <div class="fmg-stat4-sub" style="font-family:'Poppins',Arial,sans-serif;font-size:11px;font-weight:600;color:#ffffff;margin-top:6px;"><span class="fmg-stat4-full">visualizações em torno do evento</span><span class="fmg-stat4-short" style="display:none;">visualizações</span></div>
           </td></tr>
         </table>
       </td>
@@ -220,13 +225,13 @@
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#EEF1F8;border-radius:14px;">
     <tr><td align="center" style="padding:20px 18px;">
       <div style="font-family:'Poppins',Arial,sans-serif;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.8px;color:#5A6072;margin-bottom:14px;">Patrocínio</div>
-      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#ffffff;border-radius:10px;margin-bottom:8px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="fmg-spons-master" style="background:#ffffff;border-radius:10px;margin-bottom:8px;">
         <tr><td align="center" style="padding:14px;">
           <div style="font-family:'Poppins',Arial,sans-serif;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.6px;color:#5A6072;margin-bottom:8px;">Patrocinador Master</div>
           <img src="https://raw.githubusercontent.com/FMG26-sys/BOLETIM-MILGRAU-DISPARO/main/images/logo-vr-multimarcas.png" alt="VR Multimarcas" width="124" height="48" style="display:inline-block;width:124px;height:48px;">
         </td></tr>
       </table>
-      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="fmg-spons-grid">
         <tr>
           <td width="50%" style="padding:0 4px 8px 0;">
             <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#ffffff;border-radius:10px;">
