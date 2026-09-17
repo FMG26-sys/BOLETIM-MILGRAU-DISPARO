@@ -17,24 +17,13 @@
   a { color:#1B52E8; text-decoration:none; }
   @media only screen and (max-width:600px) {
     .wrap { width:100% !important; }
-    .coluna-mobile { display:block !important; width:100% !important; max-width:100% !important; box-sizing:border-box !important; padding-left:0 !important; padding-right:0 !important; }
-    .gap-mobile { height:20px !important; line-height:20px !important; display:block !important; }
     .img-fluid { width:100% !important; height:auto !important; max-width:100% !important; }
     .pad { padding-left:20px !important; padding-right:20px !important; }
     .btn-mobile { width:100% !important; }
     .h1 { font-size:22px !important; line-height:1.2 !important; }
     .h2 { font-size:19px !important; line-height:1.25 !important; }
-    .center-mobile { text-align:center !important; }
   }
 </style>
-<template id="__bundler_thumbnail" data-bg-color="#0C2D95">
-<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
-<rect width="1200" height="800" fill="#0C2D95"/>
-<circle cx="600" cy="330" r="150" fill="#FFD21E"/>
-<rect x="150" y="560" width="900" height="34" rx="17" fill="#FFFFFF"/>
-<rect x="150" y="620" width="620" height="34" rx="17" fill="#FFD21E"/>
-</svg>
-</template>
 </head>
 <body style="margin:0; padding:0; background-color:#F4F7FB;">
 
@@ -56,7 +45,7 @@
 
   <tr><td style="height:16px; line-height:16px; font-size:0;">&nbsp;</td></tr>
 
-  <!-- ===================== BLOCO 02 — MELHORES DO ANO ===================== -->
+  <!-- ===================== BLOCO 02 — MELHORES DO ANO (coluna única sempre) ===================== -->
   <tr>
     <td class="pad" style="background-color:#FFFFFF; border-radius:14px; padding:26px 28px 28px 28px;">
 
@@ -66,8 +55,7 @@
 
       <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-top:18px;">
         <tr>
-          <!-- Coluna esquerda: texto -->
-          <td class="coluna-mobile" width="320" valign="top" style="width:320px; padding-right:22px;">
+          <td valign="top">
             <h2 class="h2" style="margin:0; font-family:Arial,Helvetica,sans-serif; font-size:22px; font-weight:bold; line-height:28px; mso-line-height-rule:exactly; color:#0E2A5C;">Você merece o Oscar de Floripa...<br />e mais <span style="color:#1B52E8;">R$10.000!</span></h2>
 
             <p style="margin:14px 0 0 0; font-family:Arial,Helvetica,sans-serif; font-size:13px; line-height:21px; mso-line-height-rule:exactly; color:#5B6B86;">O Melhores do Ano VR Multimarcas tá bombando: já são mais de <strong style="color:#0E2A5C;">60 mil comentários</strong> computados nessa edição. Como recompensa, o prêmio passou de R$ 5 mil para <strong style="color:#0E2A5C;">R$ 10 mil</strong> para quem for coroado o Melhor Melhor de Floripa.</p>
@@ -96,10 +84,10 @@
               </tr>
             </table>
           </td>
-
-          <!-- Coluna direita: passo a passo -->
-          <td class="coluna-mobile" width="222" valign="top" style="width:222px;">
-            <div class="gap-mobile" style="display:none; height:0; line-height:0;">&nbsp;</div>
+        </tr>
+        <tr><td style="height:20px; line-height:20px; font-size:0;">&nbsp;</td></tr>
+        <tr>
+          <td valign="top">
             <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color:#EEF3FB; border-radius:12px;">
               <tr>
                 <td style="padding:18px 16px;">
@@ -152,12 +140,12 @@
 
   <tr><td style="height:16px; line-height:16px; font-size:0;">&nbsp;</td></tr>
 
-  <!-- ===================== BLOCO 03 — FICA LIGADO ===================== -->
+  <!-- ===================== BLOCO 03 — FICA LIGADO (coluna única sempre) ===================== -->
   <tr>
     <td class="pad" style="background-color:#FFFFFF; border-radius:14px; padding:26px 28px 28px 28px;">
       <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
         <tr>
-          <td class="coluna-mobile" width="316" valign="top" style="width:316px; padding-right:22px;">
+          <td valign="top">
             <table role="presentation" cellpadding="0" cellspacing="0" border="0">
               <tr><td style="background-color:#EEF3FB; border-radius:100px; padding:6px 13px; font-family:Arial,Helvetica,sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.6px; color:#1B52E8; text-transform:uppercase; white-space:nowrap;">🔎&nbsp; Fica ligado</td></tr>
             </table>
@@ -166,10 +154,12 @@
             <p style="margin:12px 0 0 0; font-family:Arial,Helvetica,sans-serif; font-size:13px; line-height:22px; mso-line-height-rule:exactly; color:#5B6B86;">São cerca de <strong style="color:#0E2A5C;">60 caminhões</strong> descarregando pedra toda santo dia, e já foram mais de <strong style="color:#0E2A5C;">42 mil toneladas</strong> de pedra posicionadas pra erguer o paredão de contenção.</p>
             <p style="margin:12px 0 0 0; font-family:Arial,Helvetica,sans-serif; font-size:13px; line-height:22px; mso-line-height-rule:exactly; color:#5B6B86;">A próxima etapa é fechar o primeiro trecho da barreira e avançar mais 270 metros mar adentro, preparando o terreno pro futuro quebra-mar.</p>
           </td>
-          <td class="coluna-mobile" width="226" valign="top" style="width:226px;">
-            <div class="gap-mobile" style="display:none; height:0; line-height:0;">&nbsp;</div>
-            <img src="https://raw.githubusercontent.com/FMG26-sys/BOLETIM-MILGRAU-DISPARO/main/images/marina-square-v2.jpg" width="226" alt="Obra da Marina Beira-Mar" class="img-fluid" style="width:226px; max-width:100%; height:auto; border-radius:12px;" />
-            <p style="margin:8px 0 0 0; font-family:Arial,Helvetica,sans-serif; font-size:10px; line-height:15px; color:#5B6B86; text-align:right;">Foto: Andy Puerari/PMF</p>
+        </tr>
+        <tr><td style="height:18px; line-height:18px; font-size:0;">&nbsp;</td></tr>
+        <tr>
+          <td align="center" valign="top">
+            <img src="https://raw.githubusercontent.com/FMG26-sys/BOLETIM-MILGRAU-DISPARO/main/images/marina-square-v2.jpg" width="226" alt="Obra da Marina Beira-Mar" style="width:226px; max-width:100%; height:auto; border-radius:12px;" />
+            <p style="margin:8px 0 0 0; font-family:Arial,Helvetica,sans-serif; font-size:10px; line-height:15px; color:#5B6B86; text-align:center;">Foto: Andy Puerari/PMF</p>
           </td>
         </tr>
       </table>
@@ -178,21 +168,23 @@
 
   <tr><td style="height:16px; line-height:16px; font-size:0;">&nbsp;</td></tr>
 
-  <!-- ===================== BLOCO 04 — AGENDA / OKTOBERFEST ===================== -->
+  <!-- ===================== BLOCO 04 — AGENDA / OKTOBERFEST (coluna única sempre) ===================== -->
   <tr>
     <td class="pad" style="background-color:#FFFFFF; border-radius:14px; padding:18px;">
       <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
         <tr>
-          <td class="coluna-mobile" width="244" valign="top" style="width:244px; padding-right:20px;">
-            <img src="https://raw.githubusercontent.com/FMG26-sys/BOLETIM-MILGRAU-DISPARO/main/images/oktober-square-v2.jpg" width="244" alt="Cobertura do Oktoberfest" class="img-fluid" style="width:244px; max-width:100%; height:auto; border-radius:12px;" />
-            <div class="gap-mobile" style="display:none; height:0; line-height:0;">&nbsp;</div>
+          <td align="center" valign="top">
+            <img src="https://raw.githubusercontent.com/FMG26-sys/BOLETIM-MILGRAU-DISPARO/main/images/oktober-square-v2.jpg" width="244" alt="Cobertura do Oktoberfest" style="width:244px; max-width:100%; height:auto; border-radius:12px;" />
           </td>
-          <td class="coluna-mobile" valign="top" style="padding:8px 8px 0 0;">
+        </tr>
+        <tr><td style="height:16px; line-height:16px; font-size:0;">&nbsp;</td></tr>
+        <tr>
+          <td valign="top" style="padding:0 4px;">
             <table role="presentation" cellpadding="0" cellspacing="0" border="0">
               <tr><td style="background-color:#EEF3FB; border-radius:100px; padding:6px 13px; font-family:Arial,Helvetica,sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.6px; color:#1B52E8; text-transform:uppercase; white-space:nowrap;">🗓&nbsp; Agenda</td></tr>
             </table>
             <h2 class="h2" style="margin:14px 0 0 0; font-family:Arial,Helvetica,sans-serif; font-size:20px; font-weight:bold; line-height:26px; mso-line-height-rule:exactly; color:#0E2A5C;">Um barril de chopp<br />é <span style="color:#1B52E8;">muito pouco pra nós</span>!</h2>
-            <p style="margin:14px 0 0 0; font-family:Arial,Helvetica,sans-serif; font-size:13px; line-height:22px; mso-line-height-rule:exactly; color:#5B6B86;">De <strong style="color:#0E2A5C;">7 a 25 de outubro</strong> vai rolar o <strong style="color:#0E2A5C;">41ª Oktoberfest</strong>, e o Floripa Mil Grau já tá de malas prontas para fazer a cobertura da maior festa alemã das Américas, pelo terceiro ano seguido.</p>
+            <p style="margin:14px 0 0 0; font-family:Arial,Helvetica,sans-serif; font-size:13px; line-height:22px; mso-line-height-rule:exactly; color:#5B6B86;">De <strong style="color:#0E2A5C;">7 a 25 de outubro</strong> vai rolar a <strong style="color:#0E2A5C;">41ª Oktoberfest</strong>, e o Floripa Mil Grau já tá de malas prontas para fazer a cobertura da maior festa alemã das Américas, pelo terceiro ano seguido.</p>
             <p style="margin:12px 0 0 0; font-family:Arial,Helvetica,sans-serif; font-size:13px; line-height:22px; mso-line-height-rule:exactly; color:#5B6B86;">Então prepara o caneco de chopp e o traje alemão que esse ano a Oktober tá ainda melhor.</p>
           </td>
         </tr>
@@ -202,24 +194,31 @@
 
   <tr><td style="height:16px; line-height:16px; font-size:0;">&nbsp;</td></tr>
 
-  <!-- ===================== BLOCO 05 — FEIJOADA DO CACAU ===================== -->
+  <!-- ===================== BLOCO 05 — FEIJOADA DO CACAU (coluna única sempre) ===================== -->
   <tr>
     <td class="pad" style="background-color:#FFFFFF; border-radius:14px; padding:26px 28px 28px 28px;">
       <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
         <tr>
-          <td class="coluna-mobile" width="322" valign="top" style="width:322px; padding-right:22px;">
+          <td valign="top">
             <table role="presentation" cellpadding="0" cellspacing="0" border="0">
               <tr><td style="background-color:#FFF3C9; border-radius:100px; padding:6px 13px; font-family:Arial,Helvetica,sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.6px; color:#0E2A5C; text-transform:uppercase; white-space:nowrap;">🗓&nbsp; Agenda</td></tr>
             </table>
             <h2 class="h2" style="margin:18px 0 0 0; font-family:Arial,Helvetica,sans-serif; font-size:22px; font-weight:bold; line-height:28px; mso-line-height-rule:exactly; color:#0E2A5C;">Põe na <span style="color:#E0B400;">Tela Amarelo</span></h2>
             <p style="margin:8px 0 0 0; font-family:Arial,Helvetica,sans-serif; font-size:12px; font-weight:bold; letter-spacing:0.7px; line-height:18px; color:#0E2A5C; text-transform:uppercase;">Feijoada do Cacau — Spring Edition</p>
-            <p style="margin:16px 0 0 0; font-family:Arial,Helvetica,sans-serif; font-size:13px; line-height:22px; mso-line-height-rule:exactly; color:#5B6B86;">A primavera em Floripa já tem <strong style="color:#0E2A5C;">rolé</strong> confirmado: no dia <strong style="color:#0E2A5C;">17 de outubro</strong>, a Feijoada do Cacau comemora seus <strong style="color:#0E2A5C;">28 anos</strong> com <strong style="color:#0E2A5C;">Wanessa Camargo</strong>, dez horas de festa, open bar e open food, num dos points mais tradicionais da cidade: <strong style="color:#0E2A5C;">o P12, em Jurerê internacional</strong>.</p>
+          </td>
+        </tr>
+        <tr><td style="height:16px; line-height:16px; font-size:0;">&nbsp;</td></tr>
+        <tr>
+          <td align="center" valign="top">
+            <img src="https://raw.githubusercontent.com/FMG26-sys/BOLETIM-MILGRAU-DISPARO/main/images/feijoada-flyer-v2.jpg" width="200" alt="Feijoada do Cacau — Spring Edition" style="width:200px; max-width:100%; height:auto; border-radius:12px;" />
+          </td>
+        </tr>
+        <tr><td style="height:16px; line-height:16px; font-size:0;">&nbsp;</td></tr>
+        <tr>
+          <td valign="top">
+            <p style="margin:0; font-family:Arial,Helvetica,sans-serif; font-size:13px; line-height:22px; mso-line-height-rule:exactly; color:#5B6B86;">A primavera em Floripa já tem <strong style="color:#0E2A5C;">rolé</strong> confirmado: no dia <strong style="color:#0E2A5C;">17 de outubro</strong>, a Feijoada do Cacau comemora seus <strong style="color:#0E2A5C;">28 anos</strong> com <strong style="color:#0E2A5C;">Wanessa Camargo</strong>, dez horas de festa, open bar e open food, num dos points mais tradicionais da cidade: <strong style="color:#0E2A5C;">o P12, em Jurerê internacional</strong>.</p>
             <p style="margin:12px 0 0 0; font-family:Arial,Helvetica,sans-serif; font-size:13px; line-height:22px; mso-line-height-rule:exactly; color:#5B6B86;">E ainda durante a festa, mais um capítulo histórico: o concurso <strong style="color:#0E2A5C;">Musa Mil Grau</strong>, realizado pelo Floripa Mil Grau e <strong style="color:#0E2A5C;">Cacau Menezes</strong>, recebe assinatura da <strong style="color:#0E2A5C;">Kamit</strong>, com coroação ao vivo e a maior premiação da história.</p>
             <p style="margin:16px 0 0 0; font-family:Arial,Helvetica,sans-serif; font-size:13px; font-weight:bold; line-height:19px; color:#0E2A5C; text-transform:uppercase;">És uma baita?! Te inscreve agora mesmo!</p>
-          </td>
-          <td class="coluna-mobile" width="200" valign="top" style="width:200px;">
-            <div class="gap-mobile" style="display:none; height:0; line-height:0;">&nbsp;</div>
-            <img src="https://raw.githubusercontent.com/FMG26-sys/BOLETIM-MILGRAU-DISPARO/main/images/feijoada-flyer-v2.jpg" width="200" alt="Feijoada do Cacau — Spring Edition" class="img-fluid" style="width:200px; max-width:100%; height:auto; border-radius:12px;" />
           </td>
         </tr>
       </table>
@@ -236,12 +235,12 @@
 
   <tr><td style="height:16px; line-height:16px; font-size:0;">&nbsp;</td></tr>
 
-  <!-- ===================== BLOCO 06 — PROMOÇÃO EXCLUSIVA ===================== -->
+  <!-- ===================== BLOCO 06 — PROMOÇÃO EXCLUSIVA (coluna única sempre) ===================== -->
   <tr>
     <td class="pad" style="background-color:#FFFFFF; border-radius:14px; padding:26px 28px;">
       <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
         <tr>
-          <td class="coluna-mobile" width="374" valign="middle" style="width:374px; padding-right:22px;">
+          <td valign="top">
             <table role="presentation" cellpadding="0" cellspacing="0" border="0">
               <tr><td style="background-color:#FFF3C9; border-radius:100px; padding:6px 13px; font-family:Arial,Helvetica,sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.6px; color:#0E2A5C; text-transform:uppercase; white-space:nowrap;">🎟&nbsp; Promoção exclusiva</td></tr>
             </table>
@@ -249,12 +248,14 @@
             <p style="margin:14px 0 0 0; font-family:Arial,Helvetica,sans-serif; font-size:13px; line-height:22px; mso-line-height-rule:exactly; color:#5B6B86;">Quem lê o Boletim até o final, ganha! Vamos dar <strong style="color:#0E2A5C;">1 par de ingressos</strong> pro Feijoada do Cacau (tu +1 acompanhante) com acesso exclusivo ao <strong style="color:#0E2A5C;">Camarote das Musas</strong>.</p>
             <p style="margin:12px 0 0 0; font-family:Arial,Helvetica,sans-serif; font-size:13px; line-height:22px; mso-line-height-rule:exactly; color:#5B6B86;">Vale pro primeiro que mandar mensagem no Whats com a frase: <strong style="color:#0E2A5C;">MIL GRAU ME LEVA PRA FEIJOADA</strong></p>
           </td>
-          <td class="coluna-mobile" width="152" valign="middle" style="width:152px;">
-            <div class="gap-mobile" style="display:none; height:0; line-height:0;">&nbsp;</div>
-            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+        </tr>
+        <tr><td style="height:20px; line-height:20px; font-size:0;">&nbsp;</td></tr>
+        <tr>
+          <td align="center">
+            <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0 auto;">
               <tr>
-                <td align="center" style="background-color:#1B52E8; border-radius:12px;">
-                  <a href="https://wa.me/5548991324770?text=MIL%20GRAU%20ME%20LEVA%20PRA%20FEIJOADA" style="display:block; padding:16px 14px; font-family:Arial,Helvetica,sans-serif; font-size:12px; font-weight:bold; line-height:17px; mso-line-height-rule:exactly; color:#FFFFFF; text-decoration:none;">💬&nbsp; Chama no Whats e manda <span style="color:#FFD21E;">→</span></a>
+                <td class="btn-mobile" align="center" style="background-color:#1B52E8; border-radius:100px;">
+                  <a href="https://wa.me/5548991324770?text=MIL%20GRAU%20ME%20LEVA%20PRA%20FEIJOADA" style="display:block; padding:14px 24px; font-family:Arial,Helvetica,sans-serif; font-size:13px; font-weight:bold; line-height:17px; mso-line-height-rule:exactly; color:#FFFFFF; text-decoration:none;">💬&nbsp; Chama no Whats e manda <span style="color:#FFD21E;">→</span></a>
                 </td>
               </tr>
             </table>
@@ -266,16 +267,18 @@
 
   <tr><td style="height:16px; line-height:16px; font-size:0;">&nbsp;</td></tr>
 
-  <!-- ===================== BLOCO 07 — ORGULHO CATARINENSE ===================== -->
+  <!-- ===================== BLOCO 07 — ORGULHO CATARINENSE (coluna única sempre) ===================== -->
   <tr>
     <td class="pad" style="background-color:#FFFFFF; border-radius:14px; padding:18px;">
       <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
         <tr>
-          <td class="coluna-mobile" width="226" valign="top" style="width:226px; padding-right:20px;">
-            <img src="https://raw.githubusercontent.com/FMG26-sys/BOLETIM-MILGRAU-DISPARO/main/images/koerich-portrait-v3.jpg" width="226" alt="Loja Koerich" class="img-fluid" style="width:226px; max-width:100%; height:auto; border-radius:12px;" />
-            <div class="gap-mobile" style="display:none; height:0; line-height:0;">&nbsp;</div>
+          <td align="center" valign="top">
+            <img src="https://raw.githubusercontent.com/FMG26-sys/BOLETIM-MILGRAU-DISPARO/main/images/koerich-portrait-v3.jpg" width="226" alt="Loja Koerich" style="width:226px; max-width:100%; height:auto; border-radius:12px;" />
           </td>
-          <td class="coluna-mobile" valign="top" style="padding:8px 8px 0 0;">
+        </tr>
+        <tr><td style="height:16px; line-height:16px; font-size:0;">&nbsp;</td></tr>
+        <tr>
+          <td valign="top" style="padding:0 4px;">
             <table role="presentation" cellpadding="0" cellspacing="0" border="0">
               <tr><td style="background-color:#EAF6F0; border-radius:100px; padding:6px 13px; font-family:Arial,Helvetica,sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.6px; color:#0E2A5C; text-transform:uppercase; white-space:nowrap;">💚&nbsp; Orgulho catarinense</td></tr>
             </table>
@@ -324,19 +327,21 @@
     </td>
   </tr>
 
-  <!-- ===================== BLOCO 10 — RODAPÉ ===================== -->
+  <!-- ===================== BLOCO 10 — RODAPÉ (coluna única sempre) ===================== -->
   <tr>
     <td class="pad" style="padding:26px 28px 32px 28px;">
       <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-top:1px solid #DCE4F0;">
         <tr><td style="height:20px; line-height:20px; font-size:0;">&nbsp;</td></tr>
         <tr>
-          <td class="coluna-mobile" valign="top" style="font-family:Arial,Helvetica,sans-serif;">
+          <td valign="top" style="font-family:Arial,Helvetica,sans-serif;">
             <div style="font-size:16px; font-weight:bold; color:#1B52E8;">FLORIPA <span style="color:#0E2A5C;">MIL GRAU</span></div>
             <div style="margin-top:10px; font-size:11.5px; line-height:18px; color:#5B6B86;">@floripamilgrau | Florianópolis, SC</div>
             <div style="margin-top:4px; font-size:11.5px; line-height:18px; color:#5B6B86;">(48) 99132-4770</div>
           </td>
-          <td class="coluna-mobile" valign="top" align="right" style="font-family:Arial,Helvetica,sans-serif;">
-            <div class="gap-mobile" style="display:none; height:0; line-height:0;">&nbsp;</div>
+        </tr>
+        <tr><td style="height:16px; line-height:16px; font-size:0;">&nbsp;</td></tr>
+        <tr>
+          <td valign="top" style="font-family:Arial,Helvetica,sans-serif;">
             <div style="font-size:12px; font-weight:bold; color:#0E2A5C;">Até o próximo mês. 👋</div>
             <div style="margin-top:4px; font-size:11px; color:#5B6B86;">Mais Floripa. Sempre.</div>
           </td>
